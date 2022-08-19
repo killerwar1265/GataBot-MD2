@@ -9,7 +9,7 @@ global.__filename = function filename(pathURL = import.meta.url, rmPrefix = plat
 
 import * as ws from 'ws';
 import { readdirSync, statSync, unlinkSync, existsSync, readFileSync } from 'fs';
-import watch from 'glob-fs'
+//import watch from 'glob-fs'
 import yargs from 'yargs';
 import { spawn } from 'child_process';
 import lodash from 'lodash';

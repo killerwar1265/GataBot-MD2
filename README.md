@@ -46,7 +46,7 @@
 ### 🟣 ACTIVAR EN HEROKU 
 #### ☂️ PARA USUARIOS DE HEROKU 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/GataNina-Li/GataBot-MD) <img src="https://c.tenor.com/OIc0cAei3dwAAAAd/gato-baile.gif" height="32px">
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/GataNina-Li/GataBot-MD2) <img src="https://c.tenor.com/OIc0cAei3dwAAAAd/gato-baile.gif" height="32px">
 ### Añada lo siguente al Buildpack: <img src="https://cdn-0.emojis.wiki/emoji-pics/microsoft/backhand-index-pointing-down-microsoft.png" height="32px">
 ```bash
 heroku/nodejs
@@ -76,7 +76,7 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 - [x] Resultado <details><summary>Ajustes del Servidor - GataBot-MD</summary><img src="https://i.imgur.com/N0SwvbY.jpeg"></details>
 ------------------
 
-### POR EL MOMENTO NO ACTIVAR POR TERMUX  <img src="https://c.tenor.com/HLrXIleGBToAAAAC/transparent-cat.gif" height="30px">
+### ACTIVAR POR TERMUX  <img src="https://c.tenor.com/HLrXIleGBToAAAAC/transparent-cat.gif" height="30px">
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ```bash
@@ -88,14 +88,13 @@ pkg install nodejs -y
 pkg install ffmpeg -y
 pkg install imagemagick -y
 pkg install yarn
-git clone https://github.com/GataNina-Li/GataBot-MD
-cd GataBot-MD
+git clone https://github.com/GataNina-Li/GataBot-MD2
+cd GataBot-MD2
 yarn install 
 npm install
 npm update
 npm start
 ```
-### ✨ SI QUIERES ACTIVAR EN TERMUX, USA EL REPOSITORIO [`GataBot-MD2`](https://github.com/GataNina-Li/GataBot-MD2)
 ----
 ## 💻 PARA USUARIOS DE WINDOWS/VPS/RDP (Opcional)
 
@@ -107,7 +106,7 @@ npm start
 
 ```bash
 git clone https://github.com/GataNina-Li/GataBot-MD
-cd GataBot-MD
+cd GataBot-MD2
 npm install
 npm update
 node .
@@ -129,8 +128,8 @@ Si tiene éxito, le dará un mensaje como: `SUCCESS: specified value was saved`.
 ```
 ----    
 ###  AJUSTE <img src="https://i.pinimg.com/originals/98/1b/e2/981be28d3ec7b85bfb797a5f9e6a01c2.png" height="32px">
-- CLONAR EL REPOSITORIO [`Aquí`](https://github.com/GataNina-Li/GataBot-MD/fork)
-- CAMBIAR NÚMERO DEL OWNER [`Aquí`](https://github.com/GataNina-Li/GataBot-MD/blob/master/config.js)
+- CLONAR EL REPOSITORIO [`Aquí`](https://github.com/GataNina-Li/GataBot-MD2/fork)
+- CAMBIAR NÚMERO DEL OWNER [`Aquí`](https://github.com/GataNina-Li/GataBot-MD2/blob/master/config.js)
 ----  
   
 ### SOBRE GATABOT <img src="https://i.pinimg.com/originals/0e/c9/89/0ec989dde8b5fc0deef4e5b09292b605.gif" height="30px">
@@ -152,18 +151,18 @@ Si tiene éxito, le dará un mensaje como: `SUCCESS: specified value was saved`.
 > Use CTRL + z 2 veces para apagar el Bot
 
 * Cómo enciendo el Bot en termux?
-> En caso que vuelva a iniciar en termux use este comando ```cd GataBot-MD & npm start```
+> En caso que vuelva a iniciar en termux use este comando ```cd GataBot-MD2 & npm start```
 En caso que este Apagado el Bot sin salir de la carpeta del Bot, use este comando ```npm start```
 
 * Que hago si quiero volver a clonar el Bot?
-> En caso que quiera eliminar la carpeta del Bot y volver a clonar use este comando ```rm -rf GataBot-MD && git clone https://github.com/GataNina-Li/GataBot-MD && cd GataBot-MD && yarn install && npm install && node .``` Esta acción también sirve en caso que quiera Actualizar a la última versión (Si usa el Repositorio Oficial es probable que no sea Owner)
+> En caso que quiera eliminar la carpeta del Bot y volver a clonar use este comando ```rm -rf GataBot-MD && git clone https://github.com/GataNina-Li/GataBot-MD2 && cd GataBot-MD2 && yarn install && npm install && node .``` Esta acción también sirve en caso que quiera Actualizar a la última versión (Si usa el Repositorio Oficial es probable que no sea Owner)
 
 * Cómo puedo borrar la Session?
 > Ejecute este comando en Termux ```rm -rf session.data.json```
 En caso que no tenga nada en el terminar puede usar este comando ```cd GataBot-MD && rm -rf session.data.json``` Y después solo debe de escanear el Código QR
 
 * Cómo puedo hacer el Bot Owner?
-> Debe de ingresar al archivo `config.js` o también [`Aquí`](https://github.com/GataNina-Li/GataBot-MD/blob/master/config.js) luego añadir su número en donde diga `global.owner` Recuerde que requiere de hacer una Bifurcación, puede hacerla [`Aquí`](https://github.com/GataNina-Li/GataBot-MD/fork)
+> Debe de ingresar al archivo `config.js` o también [`Aquí`](https://github.com/GataNina-Li/GataBot-MD2/blob/master/config.js) luego añadir su número en donde diga `global.owner` Recuerde que requiere de hacer una Bifurcación, puede hacerla [`Aquí`](https://github.com/GataNina-Li/GataBot-MD2/fork)
 ----
 
 ### 🌟 CREADORA 
